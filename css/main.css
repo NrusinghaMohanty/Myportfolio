@@ -1,0 +1,195 @@
+/** https://material-ui.com/customization/color/ **/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&family=Roboto&display=swap');
+:root {
+    --primary:white;
+    --secondary: #070707;
+    --primary-dark: black;
+    --secondary-dark: #ab003c;
+    --off-white:#607166;
+    --white: #ffffff
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* max-width: 600px; */
+    margin: auto;
+    color:black;
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.primary-link {
+    display: block;
+   color: #070707;
+   text-decoration: none;
+   font-size: 1.1rem;
+   padding: 0.5rem;
+   
+}
+
+.secondary-link {
+   display: block;
+   color: var(--secondary);
+   text-decoration: none;
+   font-size: 1.1rem;
+   padding: 0.5rem;
+}
+
+
+.nav {
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: var(--off-white);
+    /* border-radius: 33px 14px; */
+}
+
+.nav .active {
+    font-weight: bolder;
+    color: cornflowerblue;
+}
+
+.nav .logo {
+    font-weight: bolder;
+    color: var(--primary-dark);
+    font-size: 24px;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.nav ul {
+    text-align: right;
+}
+
+header {
+    padding: 2rem 1rem 2rem 1rem;
+    background-color:  #bbbba18f;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 1rem;
+    color: #756c6c;
+}
+
+header .hero {
+    border-radius: 2rem;
+    max-width: 335px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.ow {
+    background-color: #607166;
+    color:white;
+}
+
+section {
+    padding: 2rem 1rem 2rem 1rem;
+    /* #bbbba18f */
+    background-color:  #bbbba18f;
+}
+
+
+/** footer **/
+
+footer {
+    padding: 2rem 1rem ;
+    background-color: var(--primary-dark);
+    color: var(--white)
+}
+
+footer a {
+    color: var(--white)
+}
+
+footer li {
+    list-style: none;
+    padding: 0.5rem;;
+}
+
+.text-m {
+    font-size: 1.2rem;
+}
+
+/** Projects Page **/
+
+.projects .date {
+   margin-bottom: -0.7rem;
+   font-size: 0.8rem;
+   
+}
+
+/* .li{
+    background-color: #bbbba18f;
+} */
+.projects{
+    background-color: #bbbba18f;
+    padding: 1px;
+}
+
+.one{
+    color: #8011ca;
+    
+}
+
+.k{
+    border: 2px solid rgb(243, 228, 228);
+    padding: 6px;
+    border-radius: 15px;
+    background-color: dimgray;
+}
+.k1{
+    border: 2px solid rgb(2, 2, 2);
+    padding: 6px;
+    border-radius: 15px;
+    background-color: silver
+}
+
+.port{
+    color:black;
+    font:bold;
+}
+
+@media (max-width:410px){
+    body{
+        font-size: 13px;
+    }
+    header .hero {
+        max-width: 295px;
+   
+    }
+@media (max-width:320px){
+    body{
+        font-size: 8px;
+    }
+    header .hero {
+        max-width: 200px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
